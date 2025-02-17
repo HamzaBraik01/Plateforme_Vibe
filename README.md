@@ -1,6 +1,3 @@
-Here is the complete README script in Markdown format, including all sections and icons represented as emojis, consolidated into one script:
-
-```markdown
 # Vibe Platform 🌐
 
 ## Table of Contents

@@ -59,6 +59,21 @@
             <x-input-error for="name" class="mt-2" />
         </div>
 
+        <!-- Pseudo -->
+        <div class="col-span-6 sm:col-span-4">
+            <x-label for="pseudo" value="{{ __('Pseudo') }}" />
+            <x-input id="pseudo" type="text" class="mt-1 block w-full" wire:model="state.pseudo" required autocomplete="username" />
+            <x-input-error for="pseudo" class="mt-2" />
+        </div>
+
+        <!-- Bio -->
+        <div class="col-span-6 sm:col-span-4">
+            <x-label for="bio" value="{{ __('Bio') }}" />
+            <textarea id="bio" class="mt-1 block w-full rounded-md shadow-sm border-gray-300 focus:border-indigo-500 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                      wire:model="state.bio" rows="3"></textarea>
+            <x-input-error for="bio" class="mt-2" />
+        </div>
+
         <!-- Email -->
         <div class="col-span-6 sm:col-span-4">
             <x-label for="email" value="{{ __('Email') }}" />
